@@ -1,10 +1,23 @@
-body { background-color: #000000; color: #FFFFFF;
+body { background-color: #000000; color: #FFFFFF; 
+    font-family: Arial, Verdana, sans-serif;
 }
-h1 { color: #FF0000; 
+h1 { color: #FFFF00; 
+     font-family: Georgia, Palatino, "Times New Roman", serif; 
+     text-transform: uppercase; text-align: center; 
 }
-#whatever { background-color: #FF0000; 
+h2, h3 { color: #FF0000; 
+         font-family: Palatino, Georgia, "Times New Roman", serif; 
+}
+footer { font-style: italic; font-size: .80em; 
+}
+ul { list-style-image: url(fanPageImages/goldStarMini.png); 
+}
+main a { font-weight: bold; font-size: 1.25em; text-decoration: none; 
+}
+#whatever { background-color: #FF0000; text-align: center; text-transform: lowercase; 
 }
 .class-1 { color: #FF00CC; 
 }
-
-
+#whatever2 { background-image: url(fanPageImages/goldStarMiniWhite.png); 
+    background-repeat: round; color: #000000; text-align: center; text-transform: uppercase; 
+    font-weight: bold; font-size: 1.25em; font-family: "Arial Black", sans-serif; text-transform: uppercase; }
