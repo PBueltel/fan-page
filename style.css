@@ -1,23 +1,118 @@
-body { background-color: #000000; color: #FFFFFF; 
+body {
+    background-color: #000000;
+    background-image: radial-gradient(#000000, #0000FF, #000000, #0000FF);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
     font-family: Arial, Verdana, sans-serif;
 }
-h1 { color: #FFFF00; 
-     font-family: Georgia, Palatino, "Times New Roman", serif; 
-     text-transform: uppercase; text-align: center; 
+
+main {
+    border: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
-h2, h3 { color: #FF0000; 
-         font-family: Palatino, Georgia, "Times New Roman", serif; 
+
+h1 {
+    color: #FFFF00;
+    font-family: Georgia, Palatino, "Times New Roman", serif;
+    margin-top: 11px;
+    text-align: center;
+    text-transform: uppercase;
 }
-footer { font-style: italic; font-size: .80em; 
+
+h2,
+h3 {
+    background-color: hsla(0, 0%, 50%, 0.3);
+    border-radius: 17px;
+    box-shadow: 10px 5px 11px #000000;
+    color: #FF0000;
+    font-family: Palatino, Georgia, "Times New Roman", serif;
+    margin-top: 11px;
+    opacity: .9;
+    padding: 7px 7px 5px 7px;
+    text-shadow: -5px -5px 10px #FF0000;
 }
-ul { list-style-image: url(fanPageImages/goldStarMini.png); 
+
+footer {
+    background-image: url(fanPageImages/goldBar.png);
+    background-origin: border-box;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 5px 15px;
+    font-size: .80em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    width: 173px;
 }
-main a { font-weight: bold; font-size: 1.25em; text-decoration: none; 
+
+ul {
+    list-style-image: url(fanPageImages/goldStarMini.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
 }
-#whatever { background-color: #FF0000; text-align: center; text-transform: lowercase; 
+
+#whatever {
+    color: #FFFF00;
+    text-align: center;
+    text-transform: lowercase;
 }
-.class-1 { color: #FF00CC; 
+
+.class-1 {
+    color: #FF00CC;
 }
-#whatever2 { background-image: url(fanPageImages/goldStarMiniWhite.png); 
-    background-repeat: round; color: #000000; text-align: center; text-transform: uppercase; 
-    font-weight: bold; font-size: 1.25em; font-family: "Arial Black", sans-serif; text-transform: uppercase; }
+
+#whatever2 {
+    background-image: url(fanPageImages/goldStarMiniWhite.png);
+    background-repeat: round;
+    border-radius: 17px;
+    box-shadow: -2px -2px #0000FF;
+    color: #000000;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#whatever3 {
+    background-image: url(fanPageImages/goldStarMiniWhite.png);
+    background-repeat: round;
+    border-radius: 17px;
+    box-shadow: 2px 2px #0000FF;
+    color: #000000;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#wrapper { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#noLine {
+    background-image: radial-gradient(#FFFF00, #0000FF, #000000);
+    border-radius: 7px;
+    color: #FFFF00;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+main a {
+    color: #FFFF00;
+    text-decoration: none;
+}
