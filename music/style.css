@@ -1,0 +1,155 @@
+body {
+    background-color: #000000;
+    background-image: radial-gradient(#000000, #0000FF, #000000, #0000FF);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+    color: #FFFF00;
+    font-family: Georgia, Palatino, "Times New Roman", serif;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+main {
+    border: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,
+h3 {
+    background-color: hsla(0, 0%, 50%, 0.3);
+    border-radius: 17px;
+    box-shadow: 10px 5px 11px #000000;
+    color: #FF0000;
+    font-family: Palatino, Georgia, "Times New Roman", serif;
+    margin-top: 10px;
+    opacity: .9;
+    padding: 7px 7px 5px 7px;
+    text-shadow: -5px -5px 10px #FF0000;
+}
+
+footer {
+    background-image: url(fanPageImages/goldBar.png);
+    background-origin: border-box;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 5px 15px;
+    font-size: .80em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    width: 173px;
+}
+
+ul {
+    list-style-image: url(fanPageImages/goldStarMini.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+#whatever {
+    color: #FFFF00;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.class-1 {
+    color: #FF00CC;
+    font-size: 130%;
+}
+
+#whatever2 {
+    background-image: url(fanPageImages/goldStarMiniWhite.png);
+    background-repeat: round;
+    border-radius: 17px;
+    box-shadow: -2px -2px #0000FF;
+    color: #000000;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#whatever3 {
+    background-image: url(fanPageImages/goldStarMiniWhite2.png);
+    background-repeat: round;
+    border-radius: 17px;
+    box-shadow: 2px 2px #0000FF;
+    color: #000000;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#wrapper {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    width: 80%;
+}
+
+#noLine {
+    background-image: radial-gradient(#FFFF00, #0000FF, #000000);
+    border: ridge #000000;
+    border-radius: 7px;
+    color: #FFFF00;
+    float: right;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+main a {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+#fixedheader {
+    background-image: linear-gradient(to top, #000000, #000000, #0000FF, #FFFF00);
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+
+}
+
+.pindent {
+    font-family: "Lorem Ipsum", "Times New Roman";
+    font-size: 1.05em;
+    text-indent: 1em;
+}
+
+.eps {
+    color: rgba(255, 0, 0, 1);
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.float {
+    border: 3px ridge #000000;
+    float: right;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: right;
+}

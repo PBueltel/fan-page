@@ -1,0 +1,181 @@
+body {
+    background-color: rgba(120, 135, 171, .5);
+    color: rgba(85, 56, 0, 1);
+}
+
+header {
+    background-image: url(images/23.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 212px;
+}
+
+h1 {
+    background-color: rgba(20, 73, 0, .8);
+    padding-left: 7px;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    color: rgba(170, 132, 57, .9);
+    font-size: 180%;
+    text-shadow: 4px 4px 1px rgba(0, 56, 0, .6);
+}
+
+nav ul {
+    background-color: rgba(46, 66, 114, .2);
+    border-left: 4px solid #000000;
+    border-right: 4px solid #000000;
+    border-bottom: 5px double #000000;
+    text-align: center;
+    border-color: rgba(20, 73, 0, .6);
+    font-size: 1.15em;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:link {
+    font-weight: bold;
+    color: rgba(20, 73, 0, .8);
+}
+
+nav a:visited {
+    font-weight: bold;
+    color: rgba(85, 56, 0, .7);
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: rgba(255, 255, 255, .4);
+}
+
+nav a:active {
+    color: #000000;
+}
+
+footer {
+    font-size: 90%;
+    font-style: italic;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.clearboth {
+    clear: both;
+}
+
+#floatleft {
+    border: 1px solid #000000;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#floatright {
+    border: 1px solid #000000;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#wrapper {
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 240px;
+}
+
+.p {
+    margin-top: 8px;
+    overflow: auto;
+    padding: 0px 5px 0px 5px;
+    border: groove 2px rgba(20, 73, 0, .6);
+    border-radius: 10px;
+}
+
+.pindent {
+    font-size: 110%;
+    text-indent: 4em;
+    line-height: 150%;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, .2);
+    margin-top: 10px;
+    padding-left: 6px;
+    margin-bottom: 0;
+    border-top: 2px solid rgba(46, 66, 114, .5);
+    border-left: 2px dashed rgba(46, 66, 114, .5);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
+}
+
+main p {
+    margin: 2px;
+}
+
+h3,
+h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.topp {
+    border-bottom: 1px ridge rgba(46, 66, 114, .5);
+    border-right: 2px dashed rgba(46, 66, 114, .5)
+}
+
+figure {
+    display: inline-block;
+    min-width: 240px;
+    margin: 10px 10px 3px 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
+    padding: 2px;
+    background-color: rgba(20, 73, 0, .8);
+}
+
+figcaption {
+    text-shadow: 4px 4px 1px rgba(0, 56, 0, .6);
+    font-size: 107%;
+    color: rgba(170, 132, 57, 1);
+    text-align: center;
+}
+
+.floattop {
+    float: right;
+    width: 150px;
+}
+
+footer a:link {
+    font-weight: bold;
+    color: rgba(20, 73, 0, .8);
+}
+
+footer a:visited {
+    font-weight: bold;
+    color: rgba(85, 56, 0, .7);
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: rgba(255, 255, 255, .4);
+}
+footer a:active {
+    color: #000000;
+}
