@@ -10,6 +10,30 @@ article {
     display: block;
 }
 
+table {
+    border: 1px solid #3399CC;
+    width: 80%;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+td {
+    text-align: center;
+}
+
 #mobile {
     display: none;
 }
