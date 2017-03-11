@@ -19,18 +19,19 @@ h1 {
     font-size: 180%;
     text-shadow: 4px 4px 1px rgba(0, 56, 0, .6);
 }
-
+h3 { font-size: 135%;}
 nav ul {
+    line-height: 150%;
     background-color: rgba(46, 66, 114, .2);
     border-left: 4px solid #000000;
     border-right: 4px solid #000000;
     border-bottom: 5px double #000000;
     text-align: center;
     border-color: rgba(20, 73, 0, .6);
-    font-size: 1.15em;
+    font-size: 1.3em;
     list-style-type: none;
     margin-top: 0;
-    padding: 4px;
+    padding: 12px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 0;
@@ -40,7 +41,7 @@ nav li {
     display: inline;
 }
 
-nav a {
+nav a { text-decoration: none;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
@@ -82,17 +83,13 @@ footer {
 #floatleft {
     border: 1px solid #000000;
     float: left;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px; margin-right: 10px;
 }
 
 #floatright {
     border: 1px solid #000000;
     float: right;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+   margin-left: 10px; margin-bottom: 10px;
 }
 
 #wrapper {
@@ -103,75 +100,66 @@ footer {
 }
 
 .p {
-    margin-top: 8px;
+    font-size: 105%; 
+    margin-top: 20px;
     overflow: auto;
-    padding: 0px 5px 0px 5px;
+    padding: 5px 20px 10px 20px;
     border: groove 2px rgba(20, 73, 0, .6);
     border-radius: 10px;
+    line-height: 130%;
 }
 
 .pindent {
     font-size: 110%;
-    text-indent: 4em;
+    text-indent: 3em;
     line-height: 150%;
 }
 
 h2 {
+    height: 40px;
+    font-size: 30px;
     background-color: rgba(255, 255, 255, .2);
-    margin-top: 10px;
-    padding-left: 6px;
-    margin-bottom: 0;
+    margin-top: 20px;
+    padding-left: 8px;
+    padding-top: 3px;
     border-top: 2px solid rgba(46, 66, 114, .5);
     border-left: 2px dashed rgba(46, 66, 114, .5);
     box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
 }
 
-main p {
-    margin: 2px;
-}
 
-h3,
-h4 {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
 
 .topp {
+    padding-bottom: 15px;
     border-bottom: 1px ridge rgba(46, 66, 114, .5);
-    border-right: 2px dashed rgba(46, 66, 114, .5)
+    border-right: 2px dashed rgba(46, 66, 114, .5);
 }
-
 figure {
     display: inline-block;
-    min-width: 240px;
-    margin: 10px 10px 3px 10px;
+  
+    margin: 6px 7px 3px 10px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);
-    padding: 2px;
+    padding: 3px;
     background-color: rgba(20, 73, 0, .8);
 }
-
 figcaption {
-    text-shadow: 4px 4px 1px rgba(0, 56, 0, .6);
+    
     font-size: 107%;
     color: rgba(170, 132, 57, 1);
     text-align: center;
 }
-
 .floattop {
     float: right;
     width: 150px;
 }
-
 footer a:link {
     font-weight: bold;
     color: rgba(20, 73, 0, .8);
 }
-
 footer a:visited {
     font-weight: bold;
     color: rgba(85, 56, 0, .7);
 }
-
 footer a:hover {
     font-weight: bold;
     color: rgba(255, 255, 255, .4);
@@ -179,3 +167,4 @@ footer a:hover {
 footer a:active {
     color: #000000;
 }
+

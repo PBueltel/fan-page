@@ -15,8 +15,6 @@ header {
 
 main {
     border: 2px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h2,
@@ -121,14 +119,19 @@ main a {
     text-decoration: none;
 }
 
+main a:hover {
+    font-weight: bold;
+    color: linear-gradient(to top, #000000, #000000, #0000FF, #FFFF00);
+}
+
 #fixedheader {
-    background-image: linear-gradient(to top, #000000, #000000, #0000FF, #FFFF00);
+    background-image: linear-gradient( #000000, #000000, #0000FF, #FFFF00);
     left: 0;
     position: fixed;
     right: 0;
     text-align: center;
     top: 0;
-
+    z-index: 11111111111;
 }
 
 .pindent {
@@ -152,4 +155,21 @@ main a {
 
 .clear {
     clear: right;
+}
+
+header a {
+    font-weight: bold;
+    position: absolute;
+    left: 11%;
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: transparent;
+    position: absolute;
+    left: 11%;
+    background-image: url(fanPageImages/webdesign.png);
+    background-size: 100%;
+    width: 212px;
+    height: 49px;
 }
